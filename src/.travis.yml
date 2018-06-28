@@ -1,3 +1,6 @@
 language: nose_js
 node_js:
 	- "6"
+branches:
+	exepct:
+		- gh-pages
