@@ -3,5 +3,6 @@ node_js:
 	- "6"
 #blacklist
 branches:
-	exepct:
-		- pluralsight-js-dev-env
+	only:
+		- gh-pages
+		-/.*/
