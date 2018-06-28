@@ -1,7 +1,6 @@
 language: nose_js
 node_js:
 	- "6"
-#blacklist
 branches:
-	except:
-		- gh-pages
+	only:
+		- master
