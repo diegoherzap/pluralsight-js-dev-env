@@ -3,6 +3,5 @@ node_js:
 	- "6"
 #blacklist
 branches:
-	only:
+	except:
 		- gh-pages
-		-/.*/
