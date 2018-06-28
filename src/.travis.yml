@@ -1,6 +1,7 @@
 language: nose_js
 node_js:
 	- "6"
+#blacklist
 branches:
 	exepct:
-		- gh-pages
+		- pluralsight-js-dev-env
