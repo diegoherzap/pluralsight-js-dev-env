@@ -1,8 +1,10 @@
 import './index.css';
 //import numeral from 'numeral';
-import {getUsers} from './api/usersApi';
+import {getUsers} from './api/userApi';
 
 /*eslint-disable no-console*/
+/*eslint-disable no-unused-vars*/
+/*eslint-disable no-undef*/
 
 //Populate table of users via API call
 getUsers().then(result =>
@@ -10,7 +12,7 @@ getUsers().then(result =>
 	let usersBody = "";
 
 	result.forEach(user => {
-		userBody += `<tr>
+		usersBody += `<tr>
 			<td><a href="#" data-id="${user.id}" class="deleteUser">Delete</a></td>
 			<td>${user.id}</td>
 			<td>${user.firstName}</td>
